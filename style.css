@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+}
+
+.title a{
+    text-decoration: none;
+    color: azure;
+}
+.title {
+    color: azure;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    color: azure;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.welcome-tag {
+    text-align: center;
+    padding-top: 5em;
+}
+
+img {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-size: 200px;
+    padding-left: 5em;
+}
+
+.intro {
+    float: right;
+    padding-top: 8em;
+    padding-right: 5em;
+}
+
+.quote {
+    text-align: center;
+}
+
+footer {
+    background: black;
+    height: auto;
+    width: auto;
+    padding-top: 30px;
+    color:white
+}
+
+.copyright {
+    text-align: center;
+
+}
+.insta {
+    text-align: center;
+}
+
+.insta a{
+    color: white;
+}
+
+.nav-links a:hover {
+    background-color: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
